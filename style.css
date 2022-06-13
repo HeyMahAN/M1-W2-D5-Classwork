@@ -496,3 +496,153 @@ div:first-child .social-icon {
     border-radius: 1em;
     color: #fff;
 }
+.portfolio-nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+.portfolio-nav li{
+    list-style-type: none;
+    padding: 10px 15px;
+    font-size: 15pt;
+    font-family: 'poppins';
+}
+.portfolio-hide{
+    display: none;
+}
+.portfolio-nav-active{
+    background: #eb4b6038;
+    border-left: 6px solid brown;
+    border-bottom: 6px solid brown;
+    border-top-right-radius: 1em;
+}
+.portfolio-nav li:hover{
+    cursor: pointer;
+    background: #eb4b6038;
+}
+.for-everything,
+.for-arts,
+.for-creative,
+.for-design{
+    text-align: center;
+}
+.for-everything-1 span,
+.for-everything-2 span,
+.for-arts-1 span,
+.for-arts-2 span,
+.for-creative-1 span,
+.for-creative-2 span,
+.for-design-1 span,
+.for-design-2 span{
+    display: inline-block;
+    height: 15em;
+    width: 15em;
+    background: #fff;
+    margin: .5em;
+}
+.for-everything-1 span:first-child,
+.for-everything-1 span:nth-child(2),
+.for-everything-1 span:nth-child(3),
+.for-everything-2 span:first-child,
+.for-everything-2 span:nth-child(2),
+.for-everything-2 span:nth-child(3),
+.for-arts-1 span:first-child,
+.for-arts-1 span:nth-child(2),
+.for-arts-1 span:nth-child(3),
+.for-arts-2 span:first-child,
+.for-arts-2 span:nth-child(2),
+.for-arts-2 span:nth-child(3),
+.for-creative-1 span:first-child,
+.for-creative-1 span:nth-child(2),
+.for-creative-1 span:nth-child(3),
+.for-creative-2 span:first-child,
+.for-creative-2 span:nth-child(2),
+.for-creative-2 span:nth-child(3),
+.for-design-1 span:first-child,
+.for-design-1 span:nth-child(2),
+.for-design-1 span:nth-child(3),
+.for-design-2 span:first-child,
+.for-design-2 span:nth-child(2),
+.for-design-2 span:nth-child(3){
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-color: #fff !important;
+}
+.for-everything-1 span:first-child{
+    background: url('https://th.bing.com/th/id/R.9ca5cdf6c27f42e54dd08988b04aa76a?rik=Nc1BjRIloHtC0A&pid=ImgRaw&r=0&sres=1&sresct=1');
+}
+.for-everything-1 span:nth-child(2){
+    background: url('https://cdni.iconscout.com/illustration/premium/thumb/web-development-2974884-2488459.png');
+}
+.for-everything-1 span:nth-child(3){
+    background: url('https://th.bing.com/th/id/R.564bc96020c5b637f28636dfdb9d0636?rik=AweUc1jPZi4MhA&pid=ImgRaw&r=0');
+}
+.for-everything-2 span:first-child{
+    background: url('https://th.bing.com/th/id/R.c9ef6d72c5bfab6c09c1a1dfa3092aa9?rik=wmW%2fc8dMaevAYg&riu=http%3a%2f%2fwww.ars-network.com%2fwp-content%2fuploads%2f2018%2f12%2fweb-development.png&ehk=%2fVERc5rTipFP9lX4Xf8%2fQIF%2bhC5We1I8bCHg%2fYWwmTs%3d&risl=&pid=ImgRaw&r=0');
+}
+.for-everything-2 span:nth-child(2){
+    background: url('https://th.bing.com/th/id/R.99126ed835b618402477e0db6d8c4273?rik=gRS7vzVjHXLuXg&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fweb-development-png-website-development-company-in-noida-1100.png&ehk=LHRb9kAChY%2bPXWH9nJHjsamJzWhaRhEWrIzK8TBwDDs%3d&risl=&pid=ImgRaw&r=0');
+}
+.for-everything-2 span:nth-child(3){
+    background: url('https://letsmobility.com/content/images/2019/07/web-icon.png');
+}
+
+.for-arts-1 span:first-child{
+    background: url('https://imgs.search.brave.com/2PqdmdKv13Rjz3DAG_QxNeWmOUYnPtCrHHIxWBI8hTs/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wbmdp/bWcuY29tL3VwbG9h/ZHMvcGFsZXR0ZS9w/YWxldHRlX1BORzY4/MjgyLnBuZw');
+}
+.for-arts-1 span:nth-child(2){
+    background: url('https://imgs.search.brave.com/uWIkjBCUVDRoVmTBoKa3sYedfGQVelwGjaSFLVnf9oM/rs:fit:579:756:1/g:ce/aHR0cDovL3d3dy5w/bmdhbGwuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8zL0FydC1U/cmFuc3BhcmVudC5w/bmc');
+}
+.for-arts-1 span:nth-child(3){
+    background: url('https://imgs.search.brave.com/LnO-gCnjM8Bh-VmrLtkCw89M3BO0PyPUaRPiV-NHFFo/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9mcmVl/cG5naW1nLmNvbS90/aHVtYi9hYnN0cmFj/dC8zLTItYWJzdHJh/Y3QtcG5nLXBpYy5w/bmc');
+}
+.for-arts-2 span:first-child{
+    background: url('https://imgs.search.brave.com/_Deag8Vzteme7o18GOvMzMeU2Kl3CHYP0Ax18REHJww/rs:fit:690:726:1/g:ce/aHR0cDovL3d3dy5w/bmdtYXJ0LmNvbS9m/aWxlcy8xMS9QYWlu/dC1BcnQtVHJhbnNw/YXJlbnQtUE5HLnBu/Zw');
+}
+.for-arts-2 span:nth-child(2){
+    background: url('https://imgs.search.brave.com/tDcYpWKcf1JMhgC8OYbllBbOiTbklhcfsdCBHM4fyMo/rs:fit:960:672:1/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL3BuZy1wYWxs/ZXQtcGFsZXR0ZS1w/YWludC1vaWwtcGFp/bnRpbmctcGFpbnRl/ci1hcnQtYnJ1c2gt/OTYwLnBuZw');
+}
+.for-arts-2 span:nth-child(3){
+    background: url('https://imgs.search.brave.com/ah59Uo00Ht2_RIliRPcxFSXtLjkAW6DxjPYkyNTxKzM/rs:fit:512:512:1/g:ce/aHR0cDovL2ljb25z/Lmljb25hcmNoaXZl/LmNvbS9pY29ucy9y/YWluZHJvcG1lbW9y/eS9nYWlhLTEwLzUx/Mi9BcnQtaWNvbi5w/bmc');
+}
+
+.for-creative-1 span:first-child{
+    background: url('https://imgs.search.brave.com/qmM02bdNutUC9HpV3hys7iCGzCmp5gbJrNAcHLMf9PM/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5I/M0ttdkhUVGNtWWE3/akhIdGhiUllBSGFI/YSZwaWQ9QXBp');
+}
+.for-creative-1 span:nth-child(2){
+    background: url('https://th.bing.com/th/id/R.4e2707d98ae7cd74f7ae7c4237035c3f?rik=ijgjs0H76477Mg&riu=http%3a%2f%2fjenniferalten.com%2fwp-content%2fuploads%2f2015%2f04%2fLightbulb_ColorChange.png&ehk=l%2fzuC%2bgprh%2fW6820gJj%2fwqwgmb5kfy2Zs1j7iHbnaoo%3d&risl=&pid=ImgRaw&r=0');
+}
+.for-creative-1 span:nth-child(3){
+    background: url('https://th.bing.com/th/id/R.7bb3184908d51db85a000d90a04e2787?rik=RNiXNck61iRR7A&pid=ImgRaw&r=0');
+}
+.for-creative-2 span:first-child{
+    background: url('https://th.bing.com/th/id/R.02a2423641621a950b9499605c548957?rik=6UB4U6a5ha59Rg&pid=ImgRaw&r=0');
+}
+.for-creative-2 span:nth-child(2){
+    background: url('https://th.bing.com/th/id/OIP.FF5KXINLCDdVqO2byhko0QHaEK?pid=ImgDet&w=1280&h=720&rs=1');
+}
+.for-creative-2 span:nth-child(3){
+    background: url('https://th.bing.com/th/id/R.a5d33bce5908bde3c7070753839d7c25?rik=uw6Qqvl7TYsC8w&pid=ImgRaw&r=0');
+}
+
+.for-design-1 span:first-child{
+    background: url('https://th.bing.com/th/id/R.89ea81e1906d12b4390b0b70f39aa471?rik=TwSzr%2bjTnqlruA&pid=ImgRaw&r=0');
+}
+.for-design-1 span:nth-child(2){
+    background: url('https://th.bing.com/th/id/OIP.lLybnKBIQseN45-QkNOxBgHaCY?pid=ImgDet&rs=1');
+}
+.for-design-1 span:nth-child(3){
+    background: url('https://th.bing.com/th/id/R.de48b7890a7dbbdbebff3362349254cf?rik=V81aMqhSP7b61g&pid=ImgRaw&r=0');
+}
+.for-design-2 span:first-child{
+    background: url('https://pngimg.com/uploads/fingerprint/fingerprint_PNG59.png');
+}
+.for-design-2 span:nth-child(2){
+    background: url('https://th.bing.com/th/id/OIP.JhzgPMI-5a6z-W9g1f_HXQHaCt?pid=ImgDet&rs=1');
+}
+.for-design-2 span:nth-child(3){
+    background: url('https://th.bing.com/th/id/R.b05957008ee7fc5edc3a6ca4e8169f62?rik=AJi5UpsCs0KJmA&pid=ImgRaw&r=0');
+}
